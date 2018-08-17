@@ -14,12 +14,12 @@ RUN go build -o $PROJECT_NAME .
 
 FROM alpine:latest  
 RUN apk --no-cache add ca-certificates
-RUN mkdir -p /todolist/logs
-WORKDIR /todolist
+RUN mkdir -p /myapp/logs
+WORKDIR /myapp
 
 COPY --from=builder /go/src/github.com/siskinc/todolist/todolist .
 
-VOLUME /todolist 
+VOLUME /myapp 
 
 EXPOSE 80
-CMD ./todolist > logs/log
+CMD ./todolist
