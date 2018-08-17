@@ -8,9 +8,9 @@ ENV APP_DIR=$GOPATH/src/$PROJECT_URL
 ENV APP_CONFIG_DIR=APP_DIR
 
 RUN  mkdir -p $APP_DIR  && mkdir -p $APP_DIR/logs
-COPY ./app/app-src $APP_DIR
+COPY . $APP_DIR
 WORKDIR $APP_DIR
-RUN go build -o $PROJECT_NAME .
+RUN go build -o $PROJECT_NAME ./app/app-src
 
 FROM alpine:latest  
 RUN apk --no-cache add ca-certificates
