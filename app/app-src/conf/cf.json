@@ -1,0 +1,25 @@
+{
+    "todolist": {
+      "mode": "release",
+      "url": "/v1/",
+      "host": "",
+      "port": 80,
+      "timeout_read_s": 30,
+      "timeout_write_s": 30
+    },
+    "log": {
+      "access": "conf/access.xml",
+      "file": "conf/log.xml"
+    },
+    "mongo": {
+      "hosts": "localhost:27017",
+      "connect_timeout_s": 2,
+      "database_name": "todolist",
+      "username": "",
+      "passwd": "",
+      "collections_names": {
+          "user": "user"
+      }
+    }
+  }
+  
