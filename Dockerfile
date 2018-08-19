@@ -12,7 +12,7 @@ COPY . $APP_DIR
 WORKDIR $APP_DIR
 RUN go build -o $PROJECT_NAME ./app/app-src
 
-FROM alpine:latest  
+FROM alpine:latest
 RUN apk --no-cache add ca-certificates
 RUN mkdir -p /myapp/logs
 WORKDIR /myapp

@@ -4,6 +4,39 @@
 	"GodepVersion": "v80",
 	"Deps": [
 		{
+			"ImportPath": "github.com/cihub/seelog",
+			"Comment": "v2.6-31-gf561c5e",
+			"Rev": "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog/archive",
+			"Comment": "v2.6-31-gf561c5e",
+			"Rev": "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog/archive/gzip",
+			"Comment": "v2.6-31-gf561c5e",
+			"Rev": "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog/archive/tar",
+			"Comment": "v2.6-31-gf561c5e",
+			"Rev": "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog/archive/zip",
+			"Comment": "v2.6-31-gf561c5e",
+			"Rev": "f561c5e57575bb1e0a2167028b7339b3a8d16fb4"
+		},
+		{
+			"ImportPath": "github.com/gin-contrib/sessions",
+			"Rev": "854e10e72056b122034a60b0fa207b8f29ae3d07"
+		},
+		{
+			"ImportPath": "github.com/gin-contrib/sessions/cookie",
+			"Rev": "854e10e72056b122034a60b0fa207b8f29ae3d07"
+		},
+		{
 			"ImportPath": "github.com/gin-contrib/sse",
 			"Rev": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
 		},
@@ -31,6 +64,21 @@
 			"ImportPath": "github.com/golang/protobuf/proto",
 			"Comment": "v1.1.0",
 			"Rev": "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+		},
+		{
+			"ImportPath": "github.com/gorilla/context",
+			"Comment": "v1.1.1",
+			"Rev": "08b5f424b9271eedf6f9f0ce86cb9396ed337a42"
+		},
+		{
+			"ImportPath": "github.com/gorilla/securecookie",
+			"Comment": "v1.1.1-2-g78f3d31",
+			"Rev": "78f3d318a8bf316cda921f25e96fd0b441c5173d"
+		},
+		{
+			"ImportPath": "github.com/gorilla/sessions",
+			"Comment": "v1.1.1",
+			"Rev": "03b6f63cc43ef9c7240a635a5e22b13180e822b8"
 		},
 		{
 			"ImportPath": "github.com/json-iterator/go",
